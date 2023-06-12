@@ -1,3 +1,2 @@
-# student_manage_temp
 主要实现将窗体输入的数据保存到excel表格，并可以在窗体对xlsx文件内容进行修改和删除（仅是个人练手小程序）
 需要使用EPPlus库
