@@ -1,4 +1,4 @@
-﻿using Newtonsoft.Json;
+using Newtonsoft.Json;
 using Zj.Common;
 using OfficeOpenXml;
 using System;
@@ -184,9 +184,11 @@ namespace student_manager
                     }
                 }
 
-                package.SaveAs(new FileInfo("student.xlsx"));
+                // 将文件保存到指定路径
+                package.SaveAs(new FileInfo(excelFilePath));
             }
         }
+
 
 
         private void LoadDataFromExcel()
